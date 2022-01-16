@@ -95,7 +95,9 @@ export function InfoSidebar(props) {
         </UnregisterPopup>
       </div>
       <div className="box help-desc-box">
-        <p>联系我们：{process.env.REACT_APP_CONTACT_EMAIL}</p>
+        <p>联系我们：{process.env.REACT_APP_CONTACT_EMAIL} 或
+          <a href="https://t.me/xjtu_chat_bot">Telegram</a>
+        </p>
       </div>
       <div className="box help-desc-box">
         <p>
